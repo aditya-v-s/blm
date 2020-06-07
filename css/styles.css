@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.secondary-heading {
+  font-size: 4rem;
+}
+
+.social-heading {
+  margin: 10% 5%;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #FFF838;
+  padding: 5% 15%;
+}
+
+.uncolored-section {
+  padding: 5% 7%;
+  background-color: #fff;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 5% .5%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.title-image-box {
+  text-align: center;
+}
+
+.title-image {
+  border-radius: 10%;
+}
+
+/* Gallery Section */
+.protest-image {
+  width: 300px;
+  height: 250px;
+  margin: 25px 5px;
+}
+
+/* Support Section */
+.support-section-img {
+  width: 100px;
+  height: 110px;
+  border-radius: 100%;
+}
+
+/* Carousel */
+.carousel-text {
+  padding: 7% 15%;
+}
+
+.carousel-inner {
+  margin: 0;
+}
+
+/* Description Section */
+.description-text {
+  padding: 5% 2%;
+  text-align: left;
+  border: 3px solid #FFF838;
+}
+
+/* Social Section */
+.social-icon {
+  margin: 5%;
+}
+
+.social-icon:hover {
+  color: #000;
+}
+
+/* Footer Section */
+.footer-text {
+  color: #fccf03;
+}
+
+.footer-lg-text {
+  font-size: 2.5rem;
+}
+
+.footer-blm {
+  color: #000;
+}
+
+/* Media Queries */
+@media (max-width: 995px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 837px) {
+  .secondary-heading {
+    font-size: 2.5rem;
+  }
+}
